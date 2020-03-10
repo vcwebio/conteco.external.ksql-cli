@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="external.ksql-cli - ContEco"
+export CONTECO_DESCRIPTION="Confluent KSQLB CLI image with ContEco external prerequisites installed."
+
+export CONTECO_TYPE="external"
+export CONTECO_NAME="ksql-cli"
+export CONTECO_TAG="5.4.0"
+
+export CONTECO_BASE="confluentinc/cp-ksql-cli:5.4.0"
+export CONTECO_BUILD="external-mapped"
