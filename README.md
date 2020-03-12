@@ -1,4 +1,4 @@
-# `external.ksql-cli` - ContEco
+# `external.ksql_cli` - ContEco
 
 Confluent ksql CLI image with ContEco external prerequisites installed.  
 See `conteco.docs.overview` for more information on the ContEco ecosystem.
