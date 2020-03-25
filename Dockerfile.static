@@ -1,5 +1,5 @@
 ##### BEGIN external-mapped/Dockerfile/image-header #####
-FROM confluentinc/cp-ksql_cli:5.4.0
+FROM confluentinc/cp-ksql-cli:5.4.0
 ##### END external-mapped/Dockerfile/image-header #####
 
 ##### BEGIN image/Dockerfile/build-instructions #####
@@ -19,7 +19,7 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.type="external" \
       io.vcweb.name="ksql_cli" \
       io.vcweb.tag="5.4.0" \
-      io.vcweb.base="confluentinc/cp-ksql_cli:5.4.0" \
+      io.vcweb.base="confluentinc/cp-ksql-cli:5.4.0" \
       io.vcweb.build="external-mapped" \
       io.vcweb.label="external.ksql_cli - ContEco" \
       io.vcweb.description="Confluent KSQLB CLI image with ContEco external prerequisites installed." \
